@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin:100;
+    padding: 0;
+}
+
+.wrapper {
+    width: 300px;
+    margin: auto;
+} 
+
+.frame {
+    width: 300px;
+    background: #4d5065;
+  padding: 10px;
+}
+
+.keys-wrapper {
+}
+
+.keys {
+  text-decoration: none;
+  font-family: Arial;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 28px;
+  width: 68px;
+  height: 68px;
+  margin: 2px;
+  box-sizing: border-box;
+  line-height: 63px;
+  text-align: center;
+}
+
+.num.keys {
+  background: #a8acc5;
+  border: 1px solid grey;
+}
+
+.func.keys {
+  background: #3e414c;
+  border: 1px solid #292b2d;
+}
+
+.clear.keys {
+  height: 38px;
+  line-height: 38px;
+  background: pink;
+  border: 1px solid #CC6666;
+  margin-left: 230px
+}
+
+.lcd {
+  height: 45px;
+  background: white;
+  border: 2px solid #CC6666;
+  margin-bottom: 10px;
+  font-size: 12px;
+  clear: both;
+}
+
+.number-readout {
+  font-size: 35px;
+  line-height: 45px;
+  float: right;
+}
+
+.label {
+  font-size: 20px;
+  color: #FFFFFF;
+  float: left;
+  font-style: italic;
+}
+
+.solar {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.cell {
+  border: 2px solid black;
+  height: 40px;
+  width:  20px;
+  background: grey;
+  float: left;
+}
+
